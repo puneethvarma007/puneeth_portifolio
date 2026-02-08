@@ -38,6 +38,7 @@ const Contact = () => {
           from_email: formData.email,
           to_email: "puneethvarma111@gmail.com",
           message: formData.message,
+          time: new Date().toLocaleString(),
         },
         "KWnZnklfmYJabydh3"
       );
