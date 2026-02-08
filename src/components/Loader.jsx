@@ -1,11 +1,11 @@
-import { Html, useProgress } from "@react-three/drei";
-
 const Loader = () => {
-  const { progress } = useProgress();
   return (
-    <Html center className="text-xl font-normal text-center">
-      {progress}% Loaded
-    </Html>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-transparent">
+      <div className="w-16 h-16 border-4 border-t-blue-500 border-gray-300 rounded-full animate-spin mb-4"></div>
+      <p className="text-xl font-medium text-white animate-pulse">
+        Initializing Universe...
+      </p>
+    </div>
   );
 };
 

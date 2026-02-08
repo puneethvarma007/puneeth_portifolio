@@ -5,4 +5,14 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/puneeth_portifolio/",
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          three: ["three"],
+          drei: ["@react-three/drei"],
+        },
+      },
+    },
+  },
 });

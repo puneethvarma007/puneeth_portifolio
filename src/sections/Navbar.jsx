@@ -14,6 +14,11 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
+        <a className="nav-link" href="#projects">
+          Projects
+        </a>
+      </li>
+      <li className="nav-li">
         <a className="nav-link" href="#work">
           Work
         </a>
@@ -21,6 +26,16 @@ function Navigation() {
       <li className="nav-li">
         <a className="nav-link" href="#contact">
           Contact
+        </a>
+      </li>
+      <li className="nav-li">
+        <a
+          className="nav-link"
+          href="/puneeth_portifolio/Puneeth Frontend Developer Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Resume
         </a>
       </li>
     </ul>

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Card from "../components/Card";
 import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
-import { Frameworks } from "../components/FrameWorks";
+import { Frameworks } from "../components/Frameworks";
 
 const About = () => {
   const grid2Container = useRef();
@@ -80,7 +80,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Andhra Pradesh, India, and open to remote work worldwide
+              I'm based in Bangalore, India, and open to remote work worldwide
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -107,6 +107,21 @@ const About = () => {
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />
+          </div>
+        </div>
+        {/* Grid 6 */}
+        <div className="grid-black-color grid-6 flex flex-col justify-center p-7">
+          <p className="headtext">Education & Languages</p>
+          <div className="mt-4">
+            <p className="subtext font-bold">B.Tech in CSE (2023)</p>
+            <p className="subtext text-sm opacity-80">Siddharth Institute of Engineering and Technology</p>
+          </div>
+          <div className="mt-4 flex gap-2 flex-wrap">
+            {["English", "Hindi", "Telugu"].map((lang) => (
+              <span key={lang} className="px-3 py-1 bg-white/10 rounded-full text-xs text-white/70 border border-white/5">
+                {lang}
+              </span>
+            ))}
           </div>
         </div>
       </div>

@@ -12,7 +12,8 @@ export const myProjects = [
     ],
     href: "https://play.google.com/store/apps/details?id=com.oogiapp",
     logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
-    image: `${import.meta.env.BASE_URL}assets/projects/accessories.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/ooge.jpg`,
+    category: "Work Experience",
     tags: [
       {
         id: 1,
@@ -22,7 +23,7 @@ export const myProjects = [
       {
         id: 2,
         name: "Redux Toolkit",
-        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/reduxtoolkit.svg`,
       },
       {
         id: 3,
@@ -32,7 +33,7 @@ export const myProjects = [
       {
         id: 4,
         name: "RN Paper",
-        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/reactnativepaper.png`,
       },
     ],
   },
@@ -49,12 +50,13 @@ export const myProjects = [
     ],
     href: "https://intellora.ai/",
     logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
-    image: `${import.meta.env.BASE_URL}assets/projects/auth-system.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/intellora.png`,
+    category: "Work Experience",
     tags: [
       {
         id: 1,
         name: "Next.js",
-        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/nextjs.png`,
       },
       {
         id: 2,
@@ -64,7 +66,7 @@ export const myProjects = [
       {
         id: 3,
         name: "Redux",
-        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/reduxtoolkit.svg`,
       },
     ],
   },
@@ -79,9 +81,10 @@ export const myProjects = [
       "Collaborated with backend teams to integrate dynamic itinerary templates and PDF generation.",
       "Tech Stack: Next.js, REST APIs.",
     ],
-    href: "https://diy.triptools.site/",
+    href: "https://triptools.ai/",
     logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
-    image: `${import.meta.env.BASE_URL}assets/projects/elearning.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/triptools.png`,
+    category: "Work Experience",
     tags: [
       {
         id: 1,
@@ -109,6 +112,7 @@ export const myProjects = [
     href: "",
     logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
     image: `${import.meta.env.BASE_URL}assets/projects/accessories.jpg`,
+    category: "Work Experience",
     tags: [
       {
         id: 1,
@@ -139,7 +143,8 @@ export const myProjects = [
     ],
     href: "https://www.cutiskart.com/",
     logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
-    image: `${import.meta.env.BASE_URL}assets/projects/accessories.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/cutiskart.png`,
+    category: "Work Experience",
     tags: [
       {
         id: 1,
@@ -149,23 +154,23 @@ export const myProjects = [
       {
         id: 2,
         name: "SEO",
-        path: `${import.meta.env.BASE_URL}assets/logos/html5.svg`,
+        path: `${import.meta.env.BASE_URL}assets/logos/nextjs.png`,
       },
     ],
   },
   {
     id: 6,
-    title: "Personal Projects",
-    description:
-      "Various personal projects demonstrating frontend expertise.",
+    title: "Nike UI Clone",
+    description: "A responsive e-commerce UI inspired by the Nike website.",
     subDescription: [
-      "Nike UI Clone: Responsive e-commerce UI inspired by Nike.",
-      "Infinite Scrolling Demo: Optimized infinite scroll using API pagination.",
-      "YouTube Clone: Video listing, responsive layout, and component-based architecture.",
+      "Built a pixel-perfect, responsive UI using React and Tailwind CSS.",
+      "Implemented modern design patterns and interactive elements.",
+      "Optimized for all screen sizes with a mobile-first approach.",
     ],
     href: "https://nike-clone-iota-eight.vercel.app/",
+    category: "Personal Projects",
     logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
-    image: `${import.meta.env.BASE_URL}assets/projects/wordpress-theme.jpg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/nike.png`,
     tags: [
       {
         id: 1,
@@ -179,6 +184,117 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 7,
+    title: "Infinite Scrolling Demo",
+    description: "A high-performance infinite scroll implementation using API pagination.",
+    subDescription: [
+      "Implemented optimized infinite scrolling with high performance and smooth transitions.",
+      "Integrated REST API with pagination for seamless data fetching.",
+      "Ensured efficient state management and UI responsiveness.",
+    ],
+    href: "https://next-infiine-scrooling.vercel.app/",
+    category: "Personal Projects",
+    logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/infiniteScrool.png`,
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: `${import.meta.env.BASE_URL}assets/logos/nextjs.png`,
+      },
+      {
+        id: 2,
+        name: "REST APIs",
+        path: `${import.meta.env.BASE_URL}assets/logos/javascript.svg`,
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "YouTube Clone",
+    description: "A video listing platform with a responsive layout and component-based architecture.",
+    subDescription: [
+      "Built a comprehensive video listing and playback interface.",
+      "Designed a responsive layout similar to YouTube's modern interface.",
+      "Used reusable components to ensure scalability and maintainability.",
+    ],
+    href: "https://you-tube-clone-six-wine.vercel.app/",
+    category: "Personal Projects",
+    logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/youtube.png`,
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+      },
+      {
+        id: 2,
+        name: "Tailwind",
+        path: `${import.meta.env.BASE_URL}assets/logos/tailwindcss.svg`,
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "CRM System - Lead Management",
+    description: "A comprehensive CRM system for visual lead tracking and lifecycle management.",
+    subDescription: [
+      "Built Kanban board for visual lead tracking and developed list-based data management views.",
+      "Implemented complete lead lifecycle workflows.",
+      "Improved business visibility through intuitive UI/UX.",
+      "Tech Stack: Next.js, Redux Toolkit, Material UI.",
+    ],
+    href: "https://intellora.ai/",
+    logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/intellora.png`,
+    category: "Work Experience",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: `${import.meta.env.BASE_URL}assets/logos/nextjs.png`,
+      },
+      {
+        id: 2,
+        name: "Redux Toolkit",
+        path: `${import.meta.env.BASE_URL}assets/logos/reduxtoolkit.svg`,
+      },
+      {
+        id: 3,
+        name: "Material UI",
+        path: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Travel Widget SDK",
+    description: "A plug-and-play SDK for external partner websites to integrate travel features.",
+    subDescription: [
+      "Designed and developed a plug-and-play Travel Widget SDK.",
+      "Built modular SDK architecture for external partner websites.",
+      "Configured Rollup for optimized bundle generation and distribution.",
+      "Tech Stack: Next.js 15, Rollup, JavaScript.",
+    ],
+    href: "https://diy.triptools.site/",
+    logo: `${import.meta.env.BASE_URL}assets/logos/react.svg`,
+    image: `${import.meta.env.BASE_URL}assets/projects/triptools.png`,
+    category: "Work Experience",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js 15",
+        path: `${import.meta.env.BASE_URL}assets/logos/nextjs.png`,
+      },
+      {
+        id: 2,
+        name: "Rollup",
+        path: `${import.meta.env.BASE_URL}assets/logos/javascript.svg`,
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
@@ -189,13 +305,13 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/puneeth-varma-b49a9523a/",
     icon: `${import.meta.env.BASE_URL}assets/socials/linkedIn.svg`,
   },
   {
-    name: "Instagram",
-    href: "",
-    icon: `${import.meta.env.BASE_URL}assets/socials/instagram.svg`,
+    name: "Github",
+    href: "https://github.com/puneethvarma007",
+    icon: `${import.meta.env.BASE_URL}assets/socials/github.svg`,
   },
 ];
 
@@ -222,6 +338,16 @@ export const experiences = [
     ],
   },
 ];
+
+export const education = [
+  {
+    title: "Bachelor of Technology — Computer Science & Engineering",
+    institution: "Siddharth Institute of Engineering and Technology, Puttur",
+    date: "2023",
+  },
+];
+
+export const languages = ["English", "Hindi", "Telugu"];
 
 export const reviews = [
   {
