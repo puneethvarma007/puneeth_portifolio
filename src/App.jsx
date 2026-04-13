@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import Loader from "./components/Loader";
-const Navbar = React.lazy(() => import("./sections/navbar"));
+const Navbar = React.lazy(() => import("./sections/Navbar"));
 const Hero = React.lazy(() => import("./sections/Hero"));
 const About = React.lazy(() => import("./sections/About"));
 const Projects = React.lazy(() => import("./sections/Projects"));
