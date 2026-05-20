@@ -6,7 +6,6 @@ import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import React, { Suspense } from "react";
-import Loader from "../components/Loader";
 
 const Hero = React.memo(() => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
@@ -19,7 +18,7 @@ const Hero = React.memo(() => {
         style={{ width: "100vw", height: "100vh" }}
       >
         <Canvas camera={{ position: [0, 1, 3] }}>
-          <Suspense fallback={<Loader />}>
+          <Suspense fallback={null}>
             <Float>
               <Astronaut
                 scale={isMobile && 0.23}
